@@ -47,4 +47,8 @@ switch (day) {
   case "sunday":console.log("sunday is week-end");
     break;
     default:console.log("its is not a day")
-}   
+}  
+
+
+
+
