@@ -49,6 +49,33 @@ switch (day) {
     default:console.log("its is not a day")
 }  
 
+ //age
+let age=-1
+if (age >= 0 && age<=2) {
+  console.log("infant");
+} else if (age >= 3 && age <= 12) {
+  console.log("child");
+}else if(age>=13 && age<=19){
+    console.log("Teen")
+}else if(age>=20 && age<=64){
+    console.log("Adult")
+}else if(age>=65){
+    console.log("Senior")
+}else{
+    console.log("it is not a age")
+}
+//number system
+let no=-9
+
+if(no>=1){
+    console.log("postive")
+}else if (no==0){
+    console.log("netural")
+}else if (no<0){
+    console.log("negative")
+}
+
+
 
 
 
