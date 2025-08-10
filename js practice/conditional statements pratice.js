@@ -75,7 +75,38 @@ if(no>=1){
     console.log("negative")
 }
 
+// finding greater numberr among 3
 
+let a=100
+let b=10
+let c=40
+
+if((a>b)&&(a>c)){
+    console.log("a is greater")
+}else if ((b>a)&&(b>c)){
+    console.log("B is greater")
+}else if ((c>a)&&(c>b)){
+    console.log("C is greater")
+}
+
+
+// finding user name and password
+
+let username="Admin"
+
+let password="123456"
+
+if (username==="Admin"){
+     console.log("Username is correct")
+     
+}else{
+   console.log("username is incorrect")   
+}
+if(password==="123456"){
+    console.log("password is correct")
+}else{
+    console.log("password is invalid")
+}
 
 
 
