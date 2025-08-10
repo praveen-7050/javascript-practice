@@ -108,5 +108,88 @@ if(password==="123456"){
     console.log("password is invalid")
 }
 
+// divisble finder
+let number=24
+
+if((number%3==0)&&(number%5==0)){
+    console.log("its is divisble by both 3 and 5")
+}else if((number%3==0)&&(number%5!=0)) {
+    console.log("its divisble by 3")
+}else if ((number%3!=0)&&(number%5==0)){
+    console.log("its is divisble by 5")
+}else if (number%3!=0 && number% 5!== 0) {
+  console.log("not divible by either")
+}
+
+
+let username="Admin"
+
+let password="123456"
+
+if (username==="Admin"){
+     console.log("Username is correct")
+     
+}else{
+   console.log("username is incorrect")   
+}
+if(password==="123456"){
+    console.log("password is correct")
+}else{
+    console.log("password is invalid")
+}
+
+// finding leap year
+
+let lp=2004
+if((lp%100!=0)&&(lp%4==0)||(lp%400==0)){
+    console.log("its is leapyear")   
+}else{
+    console.log("it is not a leapyear")
+}
+
+// divisble finder
+let number=24
+
+if((number%3==0)&&(number%5==0)){
+    console.log("its is divisble by both 3 and 5")
+}else if((number%3==0)&&(number%5!=0)) {
+    console.log("its divisble by 3")
+}else if ((number%3!=0)&&(number%5==0)){
+    console.log("its is divisble by 5")
+}else if (number%3!=0 && number% 5!== 0) {
+  console.log("not divible by either")
+}
+
+//grade average calculation
+
+ let mark1=90
+let mark2=50
+let mark3=90
+
+  let Average=(mark1+mark2+mark3)/3
+//   console.log(Average)
+if(mark1<=35||mark2<=35||mark3<=35){
+   console.log("Result:Fail")
+}
+else if (Average>=35&&Average<=59){
+    console.log("Result :pass")
+    console.log("Grade: D")
+    console.log("Average :" + Average);
+}else if(Average>=60&&Average<=74){
+  console.log("Result :pass");
+  console.log("Grade:C");
+  console.log("Average :" + Average); 
+}else if(Average>=75&&Average<=89){
+   console.log("Result :pass");
+   console.log("Grade:B");
+   console.log("Average :" + Average); 
+}else if(Average>=90&&Average<=100){
+   console.log("Result :pass");
+   console.log("Grade:A");
+   console.log("Average :"+Average); 
+}
+
+
+
 
 
