@@ -189,6 +189,38 @@ else if (Average>=35&&Average<=59){
    console.log("Average :"+Average); 
 }
 
+// Finding prime numbers
+
+let n = 1113;
+
+if (n % 2 != 0 && (n % n == 0) & (n % 3 != 0) && n % 5 != 0) {
+  console.log("its is prime number");
+} else {
+  console.log("its is not a prime number");
+}
+
+//Electricity bill Finder
+
+let units=401
+let totalbill=0
+
+if(units<=100){
+    console.log("free")
+}else if(units>100 && units <=200){
+    totalbill=(units-100)*3
+    console.log(`Total bill is=${totalbill}`)
+}else if(units>200 && units<=300){
+    totalbill=((100*3)+((units-200)*5))
+    console.log(`Total bill is=${totalbill}`);
+}else if (units>300 && units<=400){
+    totalbill=((100*3)+(100*5)+(units-300)*6)
+    console.log(`Total bill is=${totalbill}`);
+}else if (units>400 && units<=500){
+    totalbill=((100*3)+(100*5)+(100*6)+(units-400)*8)
+    console.log(`Total bill is=${totalbill}`);
+}
+
+
 
 
 
