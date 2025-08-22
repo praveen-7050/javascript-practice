@@ -188,18 +188,7 @@ else if (Average>=35&&Average<=59){
    console.log("Grade:A");
    console.log("Average :"+Average); 
 }
-
-// Finding prime numbers
-
-let n = 1113;
-
-if (n % 2 != 0 && (n % n == 0) & (n % 3 != 0) && n % 5 != 0) {
-  console.log("its is prime number");
-} else {
-  console.log("its is not a prime number");
-}
-
-//Electricity bill Finder
+// Electricity bill calculator
 
 let units=401
 let totalbill=0
@@ -219,6 +208,7 @@ if(units<=100){
     totalbill=((100*3)+(100*5)+(100*6)+(units-400)*8)
     console.log(`Total bill is=${totalbill}`);
 }
+
 
 
 
