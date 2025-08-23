@@ -80,3 +80,47 @@ if (str == false) {
   console.log("prime");
 }
 
+  // Nested loops
+
+  let out = "";
+for (let i = 10; i >= 1; i--) {
+  for (let j = 0; j < i; j++) {
+    out = out + "* ";
+  }
+  out = out + "\n";
+}
+console.log(out);
+
+  // diamond pattern
+
+  let n = 5;  // size of diamond
+let out = "";
+  
+for (let i = 1; i <= n; i++) {
+  
+  for (let j = i; j < n; j++) {
+    out += " ";
+  }
+  
+  for (let k = 1; k <= (2 * i - 1); k++) {
+    out += "*";
+  }
+  out += "\n";
+}
+
+
+for (let i = n - 1; i >= 1; i--) {
+  
+  for (let j = n; j > i; j--) {
+    out += " ";
+  }
+  
+  for (let k = 1; k <= (2 * i - 1); k++) {
+    out += "*";
+  }
+  out += "\n";
+}
+
+console.log(out);
+
+
