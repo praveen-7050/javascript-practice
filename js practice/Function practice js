@@ -13,3 +13,11 @@ function area(length,breadth){
     //  console.log("the area is " + a); 
 area(30,400)
 }
+
+//by passing parameter and agrument
+
+function fun1(name){
+   console.log(`hello ${name}`)
+   
+}
+fun1("praveen")
