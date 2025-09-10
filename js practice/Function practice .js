@@ -27,3 +27,12 @@ function fun2(suqare){
 }
 (fun2(12))
 console.log(fun2(12))
+
+function fun3(num){
+    if(num%2!=0){
+        return"odd"
+    }else{
+        return"even"
+    }
+}
+ console.log(fun3(11));
