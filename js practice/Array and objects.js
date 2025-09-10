@@ -20,8 +20,16 @@ let even=add.filter((num)=>{
 })
 console.log(even);
 
-some()
+// some method()
 
 let numbers=[10,20,30,40,50,60];
 let value=numbers.some(number=>number>60);
 console.log(value
+
+            
+// every method()
+
+let digit=[10,20,40,50,70,80]
+
+let every=digit.every(digits=>digits<90);
+console.log(every)
