@@ -21,3 +21,9 @@ function fun1(name){
    
 }
 fun1("praveen")
+
+function fun2(suqare){
+    return(suqare*suqare)
+}
+(fun2(12))
+console.log(fun2(12))
