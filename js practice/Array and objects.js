@@ -33,3 +33,12 @@ let digit=[10,20,40,50,70,80]
 
 let every=digit.every(digits=>digits<90);
 console.log(every)
+
+
+// find()
+
+let digit=[10,20,40,50,70,80]
+
+let find=digit.find(digits=>digits<90);
+console.log(find)
+----------------------
