@@ -12,3 +12,16 @@ let sum=add.map((number)=>{
 })
 
 console.log(sum)
+
+// filter
+
+let even=add.filter((num)=>{
+    return num%2==0
+})
+console.log(even);
+
+some()
+
+let numbers=[10,20,30,40,50,60];
+let value=numbers.some(number=>number>60);
+console.log(value
