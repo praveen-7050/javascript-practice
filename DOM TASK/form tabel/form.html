@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabel form</title>
+</head>
+<body>
+    <script src="./form.js"></script>
+   <form>
+      <table style="border: 2px solid black;">
+       
+         <tr>
+            <td><label>Name </label></td>
+            <td><input  id="name" type="text" placeholder="Enter your Name" required></td>
+         </tr>
+         <tr>
+            <td><label>phone number </label></td>
+            <td><input id="phone" type="number" placeholder="Enter your mobile no" required></td>
+         </tr>
+         <tr>
+            <td><label>Birth date </label></td>
+            <td><input id="birth" type="date" placeholder="Enter your date of birth" required></td>
+         </tr>
+         <tr>
+            <td><label>Gender </label></td>
+            <td><input id="genmale" type="radio" class="unity" name="gender" value="male" checked >Male
+            <input id="genfemale" type="radio"class="unity"name="gender" value="Female" >Female</td>
+         </tr>
+         <tr>
+            <td><label>Address </label></td>
+            <td> <textarea id="addtext" placeholder="Enter your Address" required></textarea></td>
+         </tr>
+         <tr>
+            <td><label>Email.id </label></td>
+            <td> <input id="email" type="email" placeholder="Enter Your Email id" required> </td>
+         </tr>
+         <!-- <tr>
+            <td><label>Hobbies </label></td>
+            <td><input id="hobread" value="reading" type="checkbox"checked>Reading
+            <input id="hobtrav" value="reading" type="checkbox">travelling
+            <input id="hobsports" value="reading" type="checkbox">sports
+            <input id="hobother" value="reading" type="checkbox">others</td>
+         </tr> -->
+         <tr>
+            <td><label>State </label> </td>
+            <td><input id="state" type="text" placeholder="Enter your state"></td>
+         </tr>
+          <tr>
+            <td><label>country </label> </td>
+            <td><input id="country" type="text" placeholder="Enter your country"></td>
+         </tr>
+       <tr>
+            <td><label>Pincode </label> </td>
+            <td><input id="pincode" type="number" max="6" placeholder="Enter your pincode"></td>
+         </tr>
+          <tr>
+            <td><input type="submit" onclick="formtabel()"></td>
+            <td><input type="reset" id="reset"> </td>
+        </tr>
+         </table>
+        
+      </table>
+      <table style="border: 1px solid black;">
+        <tr>
+            <td></td>
+            <td id="td1"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="td2"></td>
+        </tr>
+         <tr>
+            <td></td>
+            <td id="td3"></td>
+        </tr>
+         <tr>
+            <td></td>
+            <td id="td4"></td>
+        </tr>
+         <tr>
+            <td></td>
+            <td id="td5"></td>
+        </tr>
+         <tr>
+            <td></td>
+            <td id="td6"></td>
+        </tr>
+         <tr>
+            <td></td>
+            <td id="td7"></td>
+        </tr>
+          <tr>
+            <td></td>
+            <td id="td8"></td>
+        </tr>
+          <tr>
+            <td></td>
+            <td id="td9"></td>
+        </tr>
+      </table>
+   </form>
+</body>
+</html>

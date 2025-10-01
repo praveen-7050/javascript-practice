@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM LEARNING</title>
+</head>
+<body>
+   
+    <h1  id="heading" class="heading-main">Document object model</h1>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quibusdam.</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quibusdam.</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quibusdam.</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quibusdam.</p>
+    <div class="div-1" id="divid">
+        <span class="sp-1">hello how are you you are selected the div tag using tag name</span>
+        <span class="sp-2">hello how are you you are selected the div tag using tag name</span>
+    </div>
+     <!-- FOR EVENT LISTERERS -->
+       
+     <button style="padding: 10px;" onclick="alert('this is ia an onclick event')"> click to event onclick</button>
+     <button id="event2" style="padding: 10px;"> click to event  action-2</button>
+     <p id="event3" style="padding: 10px;"> click to event  action-3</p>
+
+     <div class ="container">
+        <button class ="btn-reveal">click to action</button>
+        <p class="reveal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repudiandae quos, voluptas sit mollitia blanditiis nulla recusandae explicabo quaerat quibusdam minima a voluptates cumque iste repellendus reiciendis, perferendis maxime fugit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nisi doloremque et soluta voluptates? Vel officiis, maiores ipsam praesentium rerum iste perspiciatis aspernatur impedit est eius exercitationem nobis, natus modi! Lorem/p>
+     </div>
+     <!-- EVENT PROBAGATION -->
+      <div class="div-2">2
+        <div class="div-1pro">1
+            <button class="btn-pro">click</button>
+        </div>
+
+
+      </div>
+ <style>
+    .reveal-text{
+        display: none;
+    }
+    .reveal-text.show{
+        display: block;
+    }
+    .div-2{
+        padding: 40px 10px 40px 10px ;
+        width: 100px;
+        border: 2px solid red;
+        margin-top: 50px;
+        margin-bottom: 50px;
+                text-align:center;
+    }
+    .div-1pro{
+        padding: 40px 10px 40px 10px ;
+        width: 70px;
+        border: 2px solid red;
+                text-align:center;
+    }
+    .btn-pro{
+        text-align:center;
+    }
+    </style>
+    <script src="learning.js"></script>
+    <script src="travesing dom.js"></script>
+    <script src="Event listerner.js"></script>
+</body>
+</html>

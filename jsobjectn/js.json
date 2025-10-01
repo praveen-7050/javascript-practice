@@ -1,0 +1,39 @@
+[{
+  "status": "SUCCESS",
+  "message": "We have 6 categories to choose from",
+  "categories":
+   ["tv", 
+   "audio", "laptop", "mobile", "gaming", "appliances"]
+},
+
+{
+  "name":"praveen",
+  "age":18,
+  "gender":"male",
+  "hobbies":["cricket","f1"],
+  "devices":{
+    "laptop":"asus",
+    "mobile":"oppo",
+  "headphone":"mividuopods",
+   "mouse":"zeb"  
+  },
+  "isAlive":true,
+  "job":null
+},
+{
+  "Name":"praveen",
+  "Age":20,
+  "Gender":"male",
+  "phone number":7094365750,
+  "Favourtie sports":["Formula 1","cricket","kabaadi"],
+  "Education-Details":{
+  "secondary Education":"shri makesh vidiyala matric  secondary school",
+  "Higher secondary":"Jai sharadha matric higher secondary school",
+   "Bachelor's Degree":"KPR college of Arts science and Research"
+  },
+   "marks":{
+      "secondary Education":52,
+      "Higher secondary":92,
+      "Bachelor's Degree":76
+   }
+}]
