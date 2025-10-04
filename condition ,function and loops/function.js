@@ -59,15 +59,15 @@
 //     return sum;
 // }console.log(fun6(10))
 
-function fun7(number){
-    let fact=1
-    let i=1 
-    while(i<=number){
-        fact=fact*i
-        i++
-    }
-    return fact;
-}console.log(fun7(10))
+// function fun7(number){
+//     let fact=1
+//     let i=1 
+//     while(i<=number){
+//         fact=fact*i
+//         i++
+//     }
+//     return fact;
+// }console.log(fun7(10))
 
 // function fun8(Firstname,lastname){
 //     return(Firstname+lastname)
@@ -87,3 +87,16 @@ function fun7(number){
 // console.log(no(5))
 
 
+// self invoking function
+
+(
+    function (name){
+       console.log("my name is",name)
+    }
+)("praveen");
+
+(
+    function (a,b){
+        console.log("this is an self invoking function")
+    }
+)()
