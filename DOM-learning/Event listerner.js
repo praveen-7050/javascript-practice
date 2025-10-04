@@ -8,7 +8,7 @@
 //element.addEventListeners("click",function);  // synatx
 
 
-const btntwo = document.getElementById("event2");
+// const btntwo = document.getElementById("event2");
 
 
 // let arrow = ()=>{
@@ -44,3 +44,11 @@ revealbtn.addEventListener('click',torevealtext);
 
 //Event prograbation
 
+
+
+  const input = document.getElementById("liveInput");
+  const output = document.getElementById("output");
+
+  input.addEventListener("input", function(e) {
+    output.textContent = "input value: " + e.target.value;
+  });
