@@ -1,4 +1,3 @@
-  
 //   const student ={
 //   name: 'praveen',
 //   age:20,
@@ -33,32 +32,31 @@
 // let parsed = JSON.parse(detail)
 // console.log(parsed)
 
-fetch("http://127.0.0.1:5500/js/jsobjectn/js.json")
-.then(prav=>prav.json())
-.then(prav=>console.log(prav))
-fetch("http://127.0.0.1:5500/js/jsobjectn/js.json")
-.then(prav=>prav.json())
-.then(json=>console.log(json))
+// fetch("http://127.0.0.1:5500/js/jsobjectn/js.json")
+// .then(prav=>prav.json())
+// .then(prav=>console.log(prav))
+// fetch("http://127.0.0.1:5500/js/jsobjectn/js.json")
+// .then(prav=>prav.json())
+// .then(json=>console.log(json))
 
-fetch("https://fakestoreapi.com/products/1")
-  .then((res) => res.json())
-  .then((json) => console.log(json));
-fetch("https://fakestoreapi.com/products/1")
-  .then((res) => res.json())
-  .then((res) => console.log(res));
+// fetch("https://fakestoreapi.com/products/1")
+//   .then((res) => res.json())
+//   .then((json) => console.log(json));
+// fetch("https://fakestoreapi.com/products/1")
+//   .then((res) => res.json())
+//   .then((res) => console.log(res));
 
-fetch("http://127.0.0.1:5500/js/jsobjectn/js.json")
-.then((hello)=>hello.json())
-.then((hello)=>console.log(hello))
+// fetch("http://127.0.0.1:5500/js/jsobjectn/js.json")
+// .then((hello)=>hello.json())
+// .then((hello)=>console.log(hello))
 
-fetch("http://127.0.0.1:5500/js/jsobjectn/js.json")
-.then((hello)=>(hello.json))
-.then((json)=>console.log(json))
+// fetch("http://127.0.0.1:5500/js/jsobjectn/js.json")
+// .then((hello)=>(hello.json))
+// .then((json)=>console.log(json))
 
-
-fetch("https://jsonplaceholder.typicode.com/posts/1'")
-.then((response)=>(response.json))
-.then((json)=>console.log(json))
+// fetch("https://jsonplaceholder.typicode.com/posts/1'")
+// .then((response)=>(response.json))
+// .then((json)=>console.log(json))
 // const perdet={
 //   "Name":"praveen",
 //   "Age":20,
@@ -80,7 +78,10 @@ fetch("https://jsonplaceholder.typicode.com/posts/1'")
 // const perdetpar=JSON.stringify(perdet)
 // console.log(perdetpar);
 
-
 // fetch("http://127.0.0.1:5500/js/jsobjectn/js.json")
 // .then(prav=>prav.json())
 // .then (sun=>console.log(sun))
+
+const fetchQutes = fetch("https://mimic-server-api.vercel.app/quotes/1");
+fetchQutes.then((res) => res.json())
+.then((quets) => console.log(quets.parse()));
