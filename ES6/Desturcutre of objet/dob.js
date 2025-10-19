@@ -15,7 +15,7 @@ console.log(age,classno,stuname)
 let {rollno:regroll}=reg
 
 console.log(regroll)*/
-
+/*
 let f1car = {
   carname: "mclaren f1 team",
   driver1: "norris",
@@ -41,4 +41,9 @@ let { driver2: driverstd2 = "norriss" } = driverstandings; // no default value w
 function pitstop({ carname, concstand, driver1, driver2 }) {
   console.log(`carname is ${carname} and constrctor standing is ${concstand} and driver1 is  ${driver1} driver2  is  ${driver2}`);
 }
-pitstop(f1car);
+pitstop(f1car); */
+
+const names=['praveen','surya','prem']
+
+const [name1]=names;
+console.log(name1)
