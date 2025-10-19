@@ -8,7 +8,7 @@
 // console.debug("log")
 // console.table(["tabel-1", "tabel-2", "tabel-3"]);
 
-
+/*
 class Employee{
     // class body
     // let a=10 
@@ -41,4 +41,12 @@ emp2.employeeName ="Norris"
 emp2.forumla1()
 
 let driver=new avdriver()
-driver.favdriver("praveen")
+driver.favdriver("praveen") */
+
+class product{
+    constructor(name,price){
+        this.name=name;
+        this.price=price;
+        
+    }
+}

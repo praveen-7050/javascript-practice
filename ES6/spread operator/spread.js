@@ -86,6 +86,25 @@ input=[1, 2, 3, 4, 5];
 inp(input)
 */
 
+// function sum(x,y,z){
+// return x+y+z
+// }
+// const numbers =[1,2,3]
+// console.log(sum(...numbers))
+const person ={
+  name:"praveen",
+  age:20
+}
+const role ={
+  role:"front end developer"
+}
+const combined={...person,...role}
+console.log(combined)
+
+const newproperties ={name:"prop-1"}
+const newproperties2={...newproperties,newprop2:"yes"}
+console.log(newproperties2);
+
 //rest operator
 
 function inp1(...inpvalues1) {
