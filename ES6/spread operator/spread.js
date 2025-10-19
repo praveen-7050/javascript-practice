@@ -107,12 +107,22 @@ console.log(newproperties2);
 
 //rest operator
 
-function inp1(...inpvalues1) {
-  ans1 = 5;
-  for (i = 0; i < inpvalues1.length; i++) {
-    ans1 = ans1 + inpvalues1[i];
-  }
-  console.log(ans1);
-}
+// function inp1(...inpvalues1) {
+//   ans1 = 5;
+//   for (i = 0; i < inpvalues1.length; i++) {
+//     ans1 = ans1 + inpvalues1[i];
+//   }
+//   console.log(ans1);
+// }
 // inputp= [1, 2, 3, 4, 5];
-inp1(2,3,4,5,6);
+// inp1(2,3,4,5,6);
+
+function sum(...inp1){
+  ans = 0
+  for(let i=0;i<inp1.length;i++){
+    ans=ans + inp1[i];
+
+  }
+  console.log(ans)
+}
+sum(1,2,3,4,5,5);
