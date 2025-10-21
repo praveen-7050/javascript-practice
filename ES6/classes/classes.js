@@ -43,10 +43,101 @@ emp2.forumla1()
 let driver=new avdriver()
 driver.favdriver("praveen") */
 
-class product{
-    constructor(name,price){
-        this.name=name;
-        this.price=price;
-        
+class User {
+  name = "charles";
+  age = 28;
+ #rollno = "4";
+  gender = "male";
+
+  constructor(rollno, gender) {
+    console.log(this.#rollno)
+console.log(this.gender)
+  }
+  display() {
+    console.log("Name: ", this.name);
+    console.log("Age: ", this.age);
+  }
+  get rollno(){
+    return this.#rollno
+  }
+  set rollno(rollno){
+    if(rollno==='sebastain vettel'){
+    this.#rollno='4'
+    }else{
+      this.#rollno = rollno
     }
+  }
 }
+let user = new User()
+user.name = 'alonso'
+console.log(user.rollno)
+user.display()
+
+
+
+class driver {
+  // let favdriver ='lando'
+  favdriver = "lando";
+  add(a, b) {
+    console.log(a + b);
+    this.driverName = this.favdriver;
+  }
+  sub() {
+    console.log("championship Leader", this.driverName);
+  }
+}
+let Driver = new driver();
+Driver.favdriver = "piastri";
+// console.log(Driver.favdriver);
+Driver.add(10, 10);
+Driver.sub();
+
+// ------------------------------
+let Driver2 = new driver();
+Driver2.favdriver = "max";
+// Driver2.favdriver = Driver2.add(1, 2);
+console.log(Driver2.favdriver);
+
+//------------------------------------
+let driver3 = new driver();
+driver3.favdriver = "lewis";
+driver3.favdriver = "saniz";
+console.log(driver3.favdriver);
+
+//------------------------------------
+
+let Driver4 = new driver();
+Driver4.favdriver = Driver4.add(2, 2);
+
+class Employee {
+  set employeeName(name) {
+    this.name = name;
+  }
+  specialName() {
+    console.log(this.name);
+  }
+}
+let employee = new Employee();
+employee.employeeName = "lando norris";
+employee.specialName();
+
+class person {
+  #name = "praveen";
+
+  set PersonName(name){
+    this.#name ='Name: '+name
+  }
+  get personName() {
+    return this.#name;
+  }
+
+  specialPerson() {
+    console.log(this.#name);
+  }
+}
+
+let persons = new person();
+persons.name ='surya'
+// persons.personName ='surya';
+console.log(persons.personName);
+// specialPerson()
