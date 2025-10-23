@@ -8,6 +8,7 @@
 // console.debug("log")
 // console.table(["tabel-1", "tabel-2", "tabel-3"]);
 
+
 /*
 class Employee{
     // class body
@@ -28,8 +29,8 @@ class Employee{
         console.log(this.name)
         
     }
-}
-// forumla1()
+    }
+    // forumla1()
 let employee = new Employee()
 employee.employeeName= "lando"
 // console.log(employee.employeeName)
@@ -43,32 +44,9 @@ emp2.forumla1()
 let driver=new avdriver()
 driver.favdriver("praveen") */
 
-class User {
-  name = "charles";
-  age = 28;
- #rollno = "4";
-  gender = "male";
+import { User } from "../modules/modules.js";
 
-  constructor(rollno, gender) {
-    console.log(this.#rollno)
-console.log(this.gender)
-  }
-  display() {
-    console.log("Name: ", this.name);
-    console.log("Age: ", this.age);
-  }
-  get rollno(){
-    return this.#rollno
-  }
-  set rollno(rollno){
-    if(rollno==='sebastain vettel'){
-    this.#rollno='4'
-    }else{
-      this.#rollno = rollno
-    }
-  }
-}
-let user = new User()
+let user = new User
 user.name = 'alonso'
 console.log(user.rollno)
 user.display()
@@ -141,3 +119,29 @@ persons.name ='surya'
 // persons.personName ='surya';
 console.log(persons.personName);
 // specialPerson()
+
+
+ export  class Car{
+    carDetails ={
+      carName:"Maclren",
+      carOwner:"Lando Norris",
+      carColor:"Orange",
+      carPrice:"2Million",
+      carModel:2025,
+      carTopSpeed:"365KMPH",
+      carModelName:"Maclren F! Team"
+    }
+
+    carInfo(){
+      let carinfo = this.carDetails
+
+      console.log(carinfo)
+      
+    }
+}
+
+
+export class newuser {
+  newUser = "praveen"
+}
+ 
