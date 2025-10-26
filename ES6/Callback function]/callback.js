@@ -52,3 +52,14 @@ function person(myname){
 }
 // person(cb)
 cb(person) // call the whole function of cb
+
+
+
+function greet(name){
+    return console.log("Hello",name)
+}
+function fullname(calling){
+    //   username="praveen"
+       calling("praveen")
+}
+fullname(greet())
