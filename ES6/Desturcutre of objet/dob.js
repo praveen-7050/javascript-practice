@@ -47,3 +47,4 @@ const names=['praveen','surya','prem']
 
 const [name1]=names;
 console.log(name1)
+
