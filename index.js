@@ -18,3 +18,30 @@
 //  let y=10
 // let xy=(x+y)
 // console.log(xy)
+// console.log(false - 2)
+
+// reverse string without in bulit function
+
+let strvalue = "hello world";
+
+let reverseval=''
+
+function reversestring(str){
+
+    for(let i=str.length-1;i>=0;i--){
+        reverseval+=str[i];    
+    }
+    return reverseval
+}
+
+console.log(reversestring(strvalue))
+
+
+
+let bulitinfunctionvalue = "praveen";
+
+function reversed(val) {
+  return val.split("").reverse().join("");
+}
+
+console.log(reversed(bulitinfunctionvalue))
